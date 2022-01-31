@@ -1,0 +1,39 @@
+.html {
+    -webkit-text-size-adjust: 100%;
+}
+
+.main {
+       align-items: center;
+       margin-left: 200px;
+}
+
+.banner-top {
+    width: 80%;
+    display: block;
+    align-items: center;
+}
+
+.drop-item {
+    font: 15px comic;
+    color: green;
+}
+
+.menu-top-list {
+    width: 100%;
+    font: 20px arial;
+    text-align: center;
+    background-color: #9d577e;
+    color: white;
+    text-decoration: none;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding: 10px 15px;
+    font-family: 'DIN Pro Bold', Arial, sans-serif;
+    display: block;
+}
+
+.geral {
+    width: 1350px;
+    align-items: center;
+
+}

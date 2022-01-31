@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>País</title>
+    <style>
+        body {
+            color: rgb(177, 26, 26);
+            font: normal 18px Arial;
+            background-color: black;
+            align-content: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Qual seu país?</h1>
+    Seu país é: 
+        <input type="text" name="txtpais" id="txtpais">
+        <input type="button" value="Verificar" onclick="mostrar()">
+        <div id="res"></div>
+    <script>
+        function mostrar() {
+            var txtp = window.document.querySelector('input#txtpais')
+            var res = window.document.querySelector('div#res')
+            var nacao = (txtp.value) 
+            res.innerHTML = `<p>Você é do(a) ${nacao}</p>`
+            if(nacao == `Brasil`) {
+                res.innerHTML += `<p>Você é <strong>Brasileiro</strong></p>`
+            } else if(nacao != `Brasil`) {
+                res.innerHTML += `<p>Você é estrangeiro</p>`
+            }
+                
+        }
+    </script>
+</body>
+</html>

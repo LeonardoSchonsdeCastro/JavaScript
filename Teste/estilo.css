@@ -1,0 +1,23 @@
+section {
+    font-family: fantasy;
+    border-bottom-color: 5px 5px 5px red;
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    border-radius: 16px;
+    border-style: solid;
+}
+
+button {
+    color: red;
+    background: rgb(114, 70, 13);
+    box-shadow: chocolate;
+    margin-top: 75px;
+}
+
+body {
+    text-align: center;
+    margin-top: 15px;
+}
+
